@@ -23,7 +23,7 @@ class torneoController{
 	public function comenzar_torneo(){
 		
 		//M para torneo masculino, F para torneo femenino.
-		$genero = 'M';
+		$genero = $_REQUEST['genero'];
 
 		//Obtengo lista de jugadores de la BBDD 
 		$jugadores = $this->get_jugadores($genero);
