@@ -1,3 +1,3 @@
 "Proyecto generado para geopagos." 
 
-Para cargar la bbdd, ingresar a la carpeta assets/db y encontrarán el archivo dump (tenis.sql). Base de datos MySQL.
+Cargar Datos: En el directorio assets/db se encuentra el archivo dump (tenis.sql). Base de datos MySQL.
